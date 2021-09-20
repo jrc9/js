@@ -1,0 +1,49 @@
+POO
+----------------------------------------------------------------------------------------------------------------
+
+class animal {
+		constructor(especie, edad,color){
+			this.especie = especie;
+			this.edad = edad;
+			this.color = color;
+		}
+}
+
+---------------------------------------------------------------------------------------------------------------
+Abstraccion:simplificar lo mas posible un objeto;
+Modularidad: separar un problema grande en partes 
+Encapsulamiento: encapsular los datos para que no sean sencillos de acceder
+Polimorfismo: capacidad de un objeto de comportarse diferente 
+---------------------------------------------------------------------------------------------------------------
+HERENCIA
+
+Se usa extends para heredar de una clase y se pone super() en el constructor.
+---------------------------------------------------------------------------------------------------------------
+GETTER Y SETTERS
+
+Sirven para poner una propiedad de un objeto en el caso de set y get para obtenerlo. Se escriben asi:
+
+perro.setraza="doberman";
+perro.getraza;
+---------------------------------------------------------------------------------------------------------------
+CAPITULO 4
+---------------------------------------------------------------------------------------------------------------
+METODOS DE CADENAS
+
+concat() - junta dos o mas cadenas y retorna una nueva
+startswith() - si una cadena comienza con los caracteres de otra cadena, devuelve true o false
+endswith() - si una cadena termina con otra cadena, devuelve true o false
+includes() - si una cadena puede encontrar otra cadena
+indexOf() - devuelve el indice del primer caracter de la cadena
+lastIndexOf() - lo opuesto a indexOf 
+
+padStart() - rellenar cadena al principio con los caracteres deseados
+padEnd() - Rellenar cadena al final con los caracteres deseados
+repeat() - devuelve la misma cadena pero repetida las n vces que le digamos
+
+
+
+
+
+
+
