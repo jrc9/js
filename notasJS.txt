@@ -226,6 +226,114 @@ lastIndexOf() - lo opuesto a indexOf
 padStart() - rellenar cadena al principio con los caracteres deseados
 padEnd() - Rellenar cadena al final con los caracteres deseados
 repeat() - devuelve la misma cadena pero repetida las n vces que le digamos
+split() - divide la cadena como le pidamos, guarda las cadenas en un array
+substring() - retorna un pedazo de la cadena que le pasemos
+toLowerCase() - convierte a minusculas
+toUpperCase() - convierte a mayusculas
+toString() - te dice si algo es string 
+trim() -  elimina espacios en blanco al princio y al final 
+trimEnd() - elimina espacios en blanco al final 
+trimStart() - elimina espacios en blanco al principio
+valueOf() - retorna el valor primitivo de un objeto string 
+lenght() - numero de caracteres que contiene la cadena 
+
+---------------------------------------------------------------------------------------------------------------
+METODOS DE ARRAYS 
+
+------
+Transformadores
+
+pop() - elimina el ultimo elemento del array y te dice cual 
+shift() - eliminar el primer elemento de un array y te dice cual 
+push() - agrega elemento al array al final 
+reverse() - invierte el orden de los elemento del array 
+unshift() - agrega uno o mas elementos al inicio del array y te dice la nueva longitud 
+sort() - ordena los elementos y lo devuelve ordenado 
+splice() - cambia  contenido de un array eliminando elementos existente y/o agregando nuevos
+-----------
+Accesores
+
+join() - convierte a cadena todo el array, puedes agregar cosas enmedio de cada elemento 
+slice() - devuelve parte de un array dentro de otro array 
+toString(),indexOf(),includes() - igual que en cadenas 
+-----------
+De repeticion 
+
+filter() - crea un nuevo array con todos los elementos que cumplan una condicion 
+forEach() - ejecuta una funcion indicada una vez por cada elemento del array
+---------------------------------------------------------------------------------------------------------------
+Objeto Math
+--------
+numero=Math.sqrt(4);
+
+sqrt() - raiz cuadrada
+cbrt() - raiz cubica de un numero 
+max() - devuelve eñ mayor de 0 o mas numeros 
+min() - devuelve el minimo de 0 o mas numeros
+random() - devuelve un numero pseudo aleatorio en 0 y 1
+round() - redonde un numero al mas cercano
+fround() - devuelve la representacion flotante de presicion simple 
+floor() - redondea para abajo siempre 
+trunc() - devuelve la parte entera del numero x
+---------------------------------------------------------------------------------------------------------------
+CAPITULO 5
+---------------------------------------------------------------------------------------------------------------
+metodos de consola
+
+assert() - aparece error de msj en la consola si la afirmacion es falsa
+clear() - limpia la consola
+error() muestra msj de error en la consola 
+info() - emite msj informativo a la consola web 
+log() - muestra msj en la consola
+table() - toma un argumento obligatorio: data, que debe ser un array o un objeto y un parametro adicional: colums y nos muestra una tabla en consola 
+warn() - imprime un msj de advertencia en la consola 
+------------
+funciones de contexto
+
+count() - nos dice cuantas veces ejecute la funcion 
+countReset() - resetea el contador de count() 
+group() - crea un grupo en linea en el registro
+groupEnd() - Remueve un grupo en linea en el registro
+groupCollapsed - crea un grupo de linea pero contraido 
+-------------
+funciones de temporizacion
+
+time() - crea un contador en la consola 
+timeEnd() - termina el contador 
+timeLog() - muestra cuanto tiempo ha pasado desde que se inicio el contador 
+---------------------------------------------------------------------------------------------------------------
+CAPITULO 6 DOM(Document Object MOdel) 
+---------------------------------------------------------------------------------------------------------------
+nodo: un nodo en el DOM es cualquier etiqueta del cuerpo, como un parrafor, el body o las etiquetas de una lista 
+
+Tipos de nodo:
+-Document: nodo raiz a partir dle cual derivan los demas nodos 
+-Element: nodos definidos por etiquetas HTML
+-Text: el texto dentro de un nodo element se considera nodo hijo de tipo text 
+-Atrtibute: los atributos de las etiquetas definen nodos 
+-Comentarios y otros: los comentarios o declaraciones como doctype en la cabecera de los documentos HTML generan nodos 
+--------------------
+Metodos de seleccion de elementos 
+
+getElementById() - selecciona un elemento por el iD de la etiqueta HTML ---> parrafo = document.getElementById("parrafo")
+getElementByTagName - selecciona todos los elementos que coincidan con el nombre de la etiqueta especificada ---> parrafo=getElementByTagName("p")
+querySelector() - devuelve el primer elemento que coincida con el grupo especificado de selectores ---> parrafo = document.querySelector(.parrafo)--> . si es class y # si es clase 
+querySelectorAll() - Devuelve todos los elementos que coincidan con el grupo especificado de selectores
+-------------------
+Metodos para definir, obtener y eliminar valores de atributos
+setAtribute() - modifica el valor de un atributo 
+getAtribute() - obtiene el valor de un atributo
+removeAtribute() - Borra el valor de un atributo 
+
+
+
+
+
+
+
+
+
+
 
 
 
