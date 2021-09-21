@@ -1,3 +1,189 @@
+JAVASCRIPT
+--------------------------------------------------------------------------------------------------------------------
+
+Es un lenguaje de programacion interpretado y orientado a objetos.
+Es case sensitive, basado en prototipos/instancias/classless.
+Tipado debil.
+Lenguaje dinamico.
+
+--------------------------------------------------------------------------------------------------------------------
+¿Para que se usa?
+
+-Dinamismo de los sitios web del lado del cliente
+-Servidor en NodeJS
+-Tecnologias Frontend como Angular, React o Vue.JS 
+
+--------------------------------------------------------------------------------------------------------------------
+FORMAS DE ENLAZAR JS 
+
+-En Linea: <h1 onclick="alert('hola')">TITULO</h1>  ----> lo enlazas en la etiqueta (NO RECOMENDADO)
+-Como contenido de la etiqueta <script>
+-Enlazarla en un archivo externo:  <script src="codigo.js"></script>  -----> es la forma mas recomendada 
+-Con un require
+
+--------------------------------------------------------------------------------------------------------------------
+VARIABLES
+
+Las variables no es necesario declararlas por que pueden tomar cualquier tipo de dato.
+
+z = 10
+
+-Tipos de Datos: String, number, boolean.  -----> booleano el valor es 0 y 1 o true y false
+-Casos especiales de datos: Undefined, null, Nan ---> hablan de que la variable no esta definida o hay un error
+-Scope: es el contexto en el que trabajan las variables 
+-hoisting: es el orden del codigo y como puede verse afectado el sitio por la creacion y la ejecucion
+
+Inicializar variable: var es mas para una variable global y let es mas para una variable que es parte de un bloque.
+
+var numero = 15;
+let numero = 15;
+
+Const es para declarar constantes, una vez que lo declaremos no lo podemos cambiar. Const se tiene que inicializar cuando se declara.
+
+const numero=3.1416
+-------------------------------
+MULTIPLES VARIABLES 
+
+let numero, numero2, numero3;  ----------> Solo hay que separar por comas 
+
+
+-------------------------------
+PROMPT 
+
+Es una funcion de js que te manda una ventana con un parametro y una caja para escribir. lo que el usuario escriba en la funcion lo puedes guardar en una variable.
+
+let nombre = prompt("Dame tu nombre");
+alert(nombre);
+
+--------------------------------------------------------------------------------------------------------------------
+OPERADORES 
+
+-Asignacion 
+----> x = y
+----> x += y  es igual a x = x + y
+----> x -= y
+----> x /= y 
+-Aritmeticos
+----> +, -, *, /, **,++, %, --
+
+numero1 = 10;
+resultado = -numero1;
+
+Con lo de arriba puedes convertir un numero positivo a negativo
+
+--------------------------------------------------------------------------------------------------------------------
+CONCATENACION
+
+saludo= "hola" 
+pregunta = "¿como estas?"
+
+concatenada= saludo + pregunta;  o   concatenada = saludo.concat(pregunta);
+
+si se detecta algun texto en la suma, aunque haya numeros, todo lo convierte en texto.
+
+---------------
+CONCATENAR VARIABLES
+
+nombre = "jorge"
+
+frase = "soy" + nombre + "y estoy estudiando"  O  frase = `soy ${nombre} y estoy caminando` ----> en el segundo hay que usar `
+
+--------------------------------------------------------------------------------------------------------------------
+OPERADORES
+-Operadores Logicos ------> &&, ||, !
+-Operadores de comparacion ----> a == b, a != b, a===b, a>b, a>=b, 
+--------------------------------------------------------------------------------------------------------------------
+CAMEL CASE 
+
+Es una forma de nombrar las variables, se empieza con minusculas y llas siguientes palabras van con mayuscula
+-variableCadena
+-variableNumero
+
+--------------------------------------------------------------------------------------------------------------------
+CONDICIONALES 
+
+-If
+-Else If 
+-Else 
+
+if (true){
+    alert(hola);
+}
+
+else if (true){
+    alert(hola);
+}
+
+else{
+    alert(hola)
+}
+
+--------------------------------------------------------------------------------------------------------------------
+ARRAYS 
+
+let frutas = ["pera","manzana","mango"];
+--------------------------------------------------------------------------------------------------------------------
+ARRAYS ASOCIATIVOS 
+
+let pc = {
+    nombre: "mac"
+    procesador: "i5"
+    RAM: "8gb"
+}
+
+se manda llamar como pc[nombre] en vez de pc[0]
+
+--------------------------------------------------------------------------------------------------------------------
+CICLOS 
+
+-While
+-do while 
+-for 
+-for in 
+-for of 
+
+while(true){
+
+}
+---------------
+do{
+
+}while(true);
+---------------
+
+for(let i=0; i<6; i++){
+
+}
+
+--------------
+
+for(animal in animales){ -------> El un devuelve el indice o la posicion en la que estan los elementos
+
+}
+
+for(animal of animales){ --------> muestra los elementos de animales 
+
+}
+
+--------------
+Puede poner una etiqueta hasta arriba del for para etiquelarlo y poder llamar un break o un continue que te mande a esa etiqueta
+
+forTermina:
+for(){
+    break forTermina;
+}
+
+--------------------------------------------------------------------------------------------------------------------
+FUNCIONES 
+
+function nombreFuncion (){
+
+}
+
+se manda a llamar como nombreFuncion();
+----------------------------------------------------------------------------------------------------------------
+
+
 POO
 ----------------------------------------------------------------------------------------------------------------
 
