@@ -304,7 +304,7 @@ timeLog() - muestra cuanto tiempo ha pasado desde que se inicio el contador
 ---------------------------------------------------------------------------------------------------------------
 CAPITULO 6 DOM(Document Object MOdel) 
 ---------------------------------------------------------------------------------------------------------------
-nodo: un nodo en el DOM es cualquier etiqueta del cuerpo, como un parrafor, el body o las etiquetas de una lista 
+nodo: un nodo en el DOM es cualquier etiqueta del cuerpo, como un parrafo, el body o las etiquetas de una lista 
 
 Tipos de nodo:
 -Document: nodo raiz a partir dle cual derivan los demas nodos 
@@ -324,6 +324,67 @@ Metodos para definir, obtener y eliminar valores de atributos
 setAtribute() - modifica el valor de un atributo 
 getAtribute() - obtiene el valor de un atributo
 removeAtribute() - Borra el valor de un atributo 
+
+-------------------
+ATRIBUTOS GLOBALES 
+
+Todos los elementos html tienen estos atributos 
+
+const titulo = document.querySelector(".titulo")
+
+class - lista de clases del elemento 
+contenteditable - indica si el elemento puede ser modificable o no ---> titulo.setAttribute("contentEditable","true")
+dir - indica la direccion del texto ----> titulo.setAttribute("dir","ltr")
+hidden - Es como el hidden en CSS ---->titulo.setAttribute("hidden","false")
+tabindex - indica si el elemento puede tener un focus o no(seleccionar) --> titulo.setAttribute("tabindex","3") --> el numeor indica el orden del tab 
+title - Es la descripcion del titulo cuando pones el cursor encima --->titulo.setAttribute("title","texto")
+-------------------
+ATRIBUTOS DE INPUTS 
+
+const input = document.querySelector(".input-normal");
+
+
+classname:muestra el nombre de la clase del input ---> document.write(input.className);
+value: nos dice que es lo que esta adentro del input ---> document.write(input.className);
+type: cambia el tipo de input ---> document.write(input.type = "range");
+accept: se puede usar para los input tyoe file y el accept te dice que acepte PNG por ejemplo --> (input.accept = "image/png");
+form: permite ejecutar un input dentro de un form 
+minlength: la minima cantida de caracteres que tiene que tener un input ---> input.minLenght = 4
+placeholder: es lo que sale de texto en el input pero que se borra al empezar a escribir input.placeholder = "text"
+required: es para forzar a que rellenen un campo. ---> input.required = " "
+
+--------------------
+STYLE
+
+const titulo = document.querySelector(".titulo");
+
+titulo.style.color = solid blue;
+--------------------------------------------
+Clases, classList y metodos de classList
+
+const titulo = document.querySelector(".titulo");
+
+add() - añade una clase --------> titulo.classList.add(".grande")
+remove() - remueve una clase ---->titulo.classList.remove(".grande")
+item() - devuelve la clase del indice especificado -----> titulo.classList.item(1)
+contains() - verifica si ese elemento posee o no la clase especificada --------> titulo.classList.contains("grande")
+replace() - reemplaza una clase por otra ---------> titulo.classList.replace("grande","chico")
+toggle() - si no tiene la clase especificada, la agrega, si ya la tiene, la elimina.-->titulo.classList.toggle("grande")
+---------------------------------------------
+OBTENCION Y MODIFICACION DE ELEMENTOS EN HTML 
+
+const titulo = document.querySelector(".titulo");
+
+let resultado = titulo.textContent;
+
+
+textContent ----> muestra el texto que esta dentro de la etiqueta que seleccionaste sin importar los estilos let resultado = titulo.textContent;
+innerHTML----> muestra todo el cone
+
+
+
+
+
 
 
 
