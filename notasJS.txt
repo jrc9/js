@@ -379,7 +379,50 @@ let resultado = titulo.textContent;
 
 
 textContent ----> muestra el texto que esta dentro de la etiqueta que seleccionaste sin importar los estilos let resultado = titulo.textContent;
-innerHTML----> muestra todo el cone
+innerHTML----> muestra todo el contenido de de la etiqueta HTML que esta dentro del padre 
+outerHTML----> muestra todo el contenido de de la etiqueta HTML incluyendo el padre 
+--------------------------------------------
+CREACION DE ELEMENTOS 
+
+createElements()----> sirve para crear elementos html ---> const item = document.createElements("LI");
+createTextNode()----> crea texto dentro de un elemento --->  const textDelItem = document.createTextNode("Este es un item de la lista");
+createDocumentFragment() ---> fragmento = document.createDocumentFragment();--- fragmento-appendChild(item)
+appendChild()--->metodos que se aplican a los hijos -------->item.appendChild(textDelItem); --->esto agregaria el texto al elemento 
+
+
+-------------------------------------------
+OBTENCION Y MODIFICACION DE CHILDS 
+
+const contenedor = document.querySelector(".contenedor");
+
+firstChild()---> afecta al primer hijo---> const primerHijo = contenedor.firstChild();
+lastChild()---> afecta al ultimo hijo---> const ultimoHijo = contenedor.lastChild();
+firstElementChild()--->igual que firstchild() pero solo con elementos 
+lastElementChild---->ogual qe lastchild pero con elementos 
+childNodes--->devuelve una lista con todos los hijos  
+children ---->decuelve solo las etiquetas html hijas de contenedor 
+--------------------------------------------
+METODOS DE CHILDS 
+
+replaceChild(); ----> contenedor.replaceChild(h2_nuevo,h2_antiguo) --->reemplaza un hijo 
+removeChild(); -----> remueve el hijo que quieras contenedor.removeChild();
+hasChildNodes();-----> verifica si tiene un elemento hijo o no ---> let resp=contenedor.hasChildNodes();
+--------------------------------------------
+PROPIEDADES DE PARENTS 
+
+parentElement();----->dice cual es el elemento HTML padre contenedor.parentElement(); 
+
+--------------------------------------------
+PROPIEDADES DE SIBLINGS 
+
+nextSibling()----> te dice cual es el nodo siguiente
+previousSibling()----> te dice cual es el nodo previo
+nextElementSibling()----> te dice cual es el elemento html siguiente 
+previousElementSibling----> te dice cual es el elemento html previo 
+
+--------------------------------------------
+closest() --->selecciona el elemento ascendente mas cercano que coincida con nuestro selector  
+
 
 
 
