@@ -1,0 +1,180 @@
+SCRUM
+
+Es un framework para desarrollar y sostener proyectos complejos.
+
+El scrum body of language es una compilacion de los ultimos metodos y mejores practicas empleadas por los practicantes y expertos 
+
+Scrum es el Agile project management mas popular 
+
+Es muy usado en: 
+-Portfolios 
+- Programs
+- Projects in any industry 
+- Products 
+- Services 
+- Any other deliverables to be developed 
+- Proyectos de cualquier tamañao o complejidad 
+
+Producto se refiere a cualquier producto o servicio entregable 
+----------------------------------------------------------------------
+HISTORIA 
+
+Nacion en los 80's
+
+Hirotaka Takeuchi y Ikujiro Nonaka definieron una estrategia de desarrollo de producto flexible y all-inclusive, donde el dev team trabaja como unidad para alcanzar la meta en comun 
+
+Describieron el rugby approach donde el equipo trata de llegar a la distancia como unidad pasando el balon para atras y para adelante 
+
+Se basaron en varios analisis de manufactura 
+-----------
+Ken Schwaber y Jeff Sutherland elaboraron SCRUM y su aplicabilidad al software development en 1995 en Austin
+-------------------------------------------------------------------------
+BENEFITS 
+
+- Adaptability: Para poder integrar cambios cuando se necesite 
+- Customer centric: 
+- Continuous Delivery of Value: Cada sprint produce un potencial producto o servicio enviable  frecuente como el cliente lo quiera 
+- Early Delivery of high value: Se asegura de que las cosas de valor se entreguen primero al cliente 
+- Continuos Feedback: se provee atraves de la conducta diaria y demuestra y valida sprint processes 
+- Transparency: Que todos tienen acceso al Scrumboard y sprint burndown chart para saber en que se esta trabajando 
+- Sprint Review Meetings demuestran potenciales entregables a los interesados, manteniendolos 100% informados del status actual y el progreso del proyecto 
+- Continuous improvement: los entregables van progresando en cada sprint 
+- Sustainable Pace: ritmo sostenido que puede avanzar indefinidamente 
+- Efficiente dev process: te da mas eficiencia
+- Motivation
+- Faster problem resolution: por que colaboras mucho 
+- Effective Deliverables: 
+- Collective Ownership: 
+- High velocity
+- Innovative Environment
+----------------------------------------------------------------------
+SCRUM PRINCIPLES 
+
+Son el nucleo para aplicar scrum en cuaquier proyecto. Estos no pueden ser modificados, a diferencia de los aspects y procecess
+
+Los 6 principios principales son:
+
+- Empirical Process control:Se enfoca en el nucle de la filosofia de scrum basado en las 3 ideas principales de transparencia, inspection y adaptation
+
+- Self Organization: Te alienta a auto organizarte en lugar de mandar y controlar
+
+- Collaboration: Awareness(conocimiento), articulation and appropiation
+
+- Value Based Priorization: Entregar cosas de valor 
+
+- Time-Boxing: Define como el tiempo es considerado una restriccion limitante en scrum y ayuda a manejar efectivamente el project planning y su ejecucion. Aqui se incluyen sprints, Daily Standup Meetings, Sprint Planning meetings y sprint review meetings 
+
+
+- Iterative Development: Define como manejar los cambios y construir proyectos que satisfagan las necesidades del  cliente. Tambien delinea las responsabilidades del product owner y la organizacion.
+-----------------------------------------------------------------------
+ASPECTS 
+
+Organization: Se explica en la parte de los roles
+
+Bussines justification: Es importante realizarlo antes de empezar el proyecto. Esto ayuda a los que toman las decisiones a entender la necesidad de cambio del negocio para un nuevo producto o servicio y si es viable o no. Se basa en Value-driven delivery que es entregar resultados lo mas pronto posible y provee una oportunidad para cambiar en caso de que el negocio lo jsutifique.
+
+Quality: Es la habilidad de que el producto o los entregables cumplan el criterio aceptado y logre el valor del negocio esperado por el cliente. Para esto scrum adopta el continuous improvement y el equipo aprende de experiencia y stakeholders a mantener la prioritized product backlog. El prioritized product backlog no está completo hasta que se termine el proyecto. En cada sprint de desarrolla, teste y documenta y no hasta el final del proyetco, con esto te aseguras de que siempre permanezca la calidad.
+
+Change: Cada proyecto está expuesto a cambios, las organizacion deberian intentar maximixar los beneficios de los cambios y minimizar los impactos negativos de estos. Al principio el cliente no siempre sabe lo que quiere al 100% por lo que habrá cambios. Con los sprints iterativos puedes tener estos cambios. Esto permite que el cliente pueda recibir entregables y pedir cambios si se necesitan.
+
+Risk: Es definido como un evento incierto o serie de eventos que pueden afectar a los objetivos del proyecto o pueden contribuir al success o failure. Opportunitties o threats. Manejar los riesgos debe ser proactivo y tiene que verse desde el inicio y continuar en el ciclo de vida del proyecto. Pasos para asegurar los riesgos:
+
+- identified:
+- Evaluated:
+- Proper curse of action is determined upon and acted upon
+
+Los riesgos se basan en 2 factores:
+- La probabilidad de que ocurra
+- El posible impacto en el caso de que ocurra
+
+-------------------
+Scrum Roles:
+- Core Roles: Son los que estan involucrados en producir el producto o servicio. Son responsables del exito de cada iteration del proyecto y de todo el proyecto. Son: 
+
+Product Owner: Es la persona responsable de alcanzar el maximo valor de negocio para el proyecto. Articula los requerimientos del cliente. Mantiene la justificacion comercial del proyecto. Representa la voz del cliente.
+
+Scrum Master: Se asegura de que el scrum team tenga un ambiente apropiado para completar el proyecto exitosamente. Guia y enseña scrum practices a todos los involucrados en el proyecto. Limpia los impedimentos del equipo y se asegura de que se cumplan los procesos de scrum.
+
+Scrum Team: Son los que hacen el trabajo y que entienden los requerimientos del product owner para hacerl los entregables 
+
+
+- Non-Core Roles: Son opcionales y pueden incluir a todos los que quieran involucrarse o interesarse en el proyecto. No tienen un rol especifico. No son responsables del exito del proyecto.
+
+Ejemplos de non-core: 
+- Stakeholders: Incluye clientes, usuarios y sponsors. Se comunican frecuentemente con el scrum core team e influencian el proyecto 
+
+- scrum guidance body: Conjunto de documentos o expertos, normalmento envueltos en definir objetivos de calidad o regulaciones o seguridad
+
+- vendors: son externos o internos que proveen productos o servicios que no estan dentro del nucleo de las competencias del proyecto
+----------------------------------------------------------------------
+SCRUM PROCESESS
+
+Definen las actividades principales y e flujo de un proyecto scrum. En total hay 19 procesos agrupados en 5 fases:
+
+En cada fase hay inputs, tools y outputs, algunas son obligatorias, otras no.
+
+Fase 1: Initiate: 
+- Create project vision: project bussines es revisado para crear una vision del proyecto. Aqui se define el product owner
+
+- Identificar al scrum master y stakeholders
+
+- Formar el scrum team. Normalmente el product owner selecciona a los miembros del equipo y aveces lo hace con ayuda del scrum master 
+
+- Develop epics. Son las caracteristicas grandotas del proyecto. Pueden crear user group meetings para desarrollar las epics.
+
+- Create a prioritized product backlog: Aqui las epics y las historias de usuario no refinadas son refinadas, elaboradas y priorizadas para crear el prioritized backlog. aqui se establece el done criteria tambien.
+
+- Conduct release planning: Aqui el scrum core team revisa las historias de usuario en el prioritized backlog para desarrollar un release planning schedule
+------------
+Fase 2: Plan and Estimate:
+
+- Create User Stories: Aqui se crean las user stories y user stories acceptance criteria. Son escritas por el product owner y estan diseñadas para asegurarse de que los requerimientos sean los que pidio el usario y puedan ser entendidos por todos los interesados. Se integran al prioritized backlog y envuelven a los scrum team members.
+
+---Mandatory inputs: Scrum core team y user stories 
+---Mandatory tools: Estimation Methods(Whiteband Delphi, estimation poker, fist of five, affinity estimation). Es la estimacion de cada user storie
+---Mandatory Output: Estimated User Stories 
+
+---------------------
+
+- Commit User Stories
+
+---Mandatory inputs: Scrum core team, estimaded user stories, lenght of sprint
+
+---Mandatory tools: 
+--------Sprint Planning Meeting: para planear el trabajo a hacer en el sprint, revisar las estimated user stories para commitearlas
+--------communication techniques: para que todo el equipo esté en constante comunicacion
+
+---Mandatory output: commited user stories que se cree seran completadas en el siguiente sprint basado en la velocidad. Las commites user stories deben ser escogidas siempre por la prioridad definida por el product owner.
+--------------------
+Identify Tasks Procesess
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

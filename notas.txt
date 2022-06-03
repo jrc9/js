@@ -1,0 +1,147 @@
+Scrum es un framework para desarrollar y sstener proyectos complejos. 
+
+Scrum body of knowledge: Es una compilacion de los ultimos metodos y mejores practicas empleadas por sus practitioner y expertos.
+
+Scrum framework es muy usado en:
+- prtfolios
+- Programs 
+- Projects in any industry 
+- Products 
+- Services
+- Any other deliverables to be developed 
+- Projects of any size or complexity 
+
+Product: Puede referirse a un producto, servicio o otro entregable 
+
+A Scrum project involves a collaborative effort to create a new product, service, or other result as defined in the Project Vision Statement
+
+Projects are impacted by: 
+
+- Time
+- Cost 
+- Scope 
+- Quality 
+- Resources 
+- Organizational Capabilities 
+- Other limitations 
+
+Successful implementation of the results of a finished project provides significant business benefits 
+
+Scrum:
+- Popular Agile Methodology 
+- Adaptive, iterative, fast, flexible and effective 
+- Ensures transparency in communication
+- Creates collective accountability and progress 
+- Scrum framework supports all kind of projects 
+
+Scrum Teams:
+- Multifuncional
+- Self- Organized 
+- Empowered
+- Use prints 
+
+Sprints are short time spans in which a certain amount of work must be done 
+
+Scrum flow:
+
+Project bussines  case ---> project vision statement ---> prioritized product backlog (arriba de este esta "Release Planning Schedule" que es el metting del sprint) ---> Sprint Backlog (se crean entregables y hay daily stand up) ---> accepted deliverables 
+
+Product backlog: contains a prioritized list of bussines and project requirements written in the form of User Stories 
+
+User stories are considered for inclusion in the sprint 
+
+Un sprint generalmente dura entre una y 6 semanas 
+
+Al prodcut owner y stakeholders se les provee una demostracion de los entregables y el product owner acepta los entregables solo si cumplen con Predefined acceptance criteria 
+----------------------------------------------------------------------------------------------------
+HISTORY OF SCRUM 
+----------------------------------------------------------------------------------------------------
+ El framework scrum tuvo su comienzo en los 80s
+
+ Lo crearon Hirotaka Takeuchi y Ikujiro Nonakadonde dev team works as a unit to reach a common goal 
+
+ Rugby approach: donde un team intenta ir a distancia como unidad, pasando el balon atras y adelante 
+
+Ken Schwaber y Jeff Sutherland elaboraron el concepto de Scrum y su aplicabilidad al software development en 1995 en Austin
+--------------------------------------------------------------------------------------------------------
+Why use Scrum?
+------------------------------------------------------------------------------------------------------
+-Adaptability: Hace a los proyectos abiertos para incorprar cambios cuando esto ocurra
+-Customer centric: Asegura una orientacion al cliente 
+-Continuous Delivery of Value: Permite dar entregables al cliente como el cliente lo vaya requiriendo. Cada sprint produce un producto, servicio o resultado deseado 
+-Early delivery of High Value: Te permite que los requerimientos de mayor valor para el usuario sean los primeros, esto con los backlogs 
+-Continuous Feedback: se recibe retro constante 
+-Transparency: El scrumboard y sprint burndown son compartidos para que todo el equipo este enterado y sea abierto
+-Sprint review meeting: demuestran productos potencialmente entregables a los cliente para tenerlos informados de como va el proyecto 
+-Continuous improvement: Los entregables are improved progresivamente sprint by sprint atraaves de groom prioritized product backlog process 
+-Sustainable Pace: permite trabajar a un ritmo que sea sostenible 
+-Efficient development process: Minimiza el trabajo no esencial para tener mayor eficiencia 
+-Motivation: viendo en retrospectiva los sprints puede llevar a mayor motivacion en los empleados 
+-Faster problem resolution: con la colaboracion de todo el equipo 
+-Effective Deliverables: Priorizando el product backlog y con regular reviews despues de crear entregables te aseguras de dar entregables efectivos al cliente 
+-Collective ownership: 
+-High Velocity: 
+-Innovative Environment: 
+------------------------------------------------------------------------------------------------------------
+Scrum Core team Members
+
+-Product Owner: 
+-Scrum masters: 
+-Scrum team members 
+------------------------------------------------------------------------------------------------------------
+SBOK Guide 
+
+Se divide en 3 areas:
+- Principios : 
+---Process control 
+---Self Organization 
+---Collaboration 
+---Value-based prioritization 
+---Time-boxing
+---Iterative development 
+
+- Aspectos:
+--- Origanization 
+--- bussines justification 
+--- quality 
+--- Change
+--- Risk 
+
+- Procesos:
+--Initiate
+-----Cretae project vision
+-----Identify scrummaster y stakeholder 
+-----Fom scrum team
+-----develop epics
+-----create prioritized product backlog
+-----Conduct release planning 
+--Plan and stimate
+-----Create User Stories 
+-----Estimate User Stories 
+-----Commit User Stories 
+-----Identify Tasks 
+-----Estimate Tasks 
+--implement
+-----Create Sprint Backlog 
+-----Create deliverables 
+-----Conduct Daily StandUp 
+--Review and retrospect 
+-----Groom prioritized product backlog 
+-----demonstrate and validate sprint 
+-----retrospect sprint 
+--Release
+-----Ship deliverables 
+-----Retrospect Project 
+--------------------------------------------------------------------------------
+How to use sbok guide 
+
+En el libro se hace referencia a 3 core team roles:
+- Product owner
+- Scrum master 
+- Scrum Team 
+---------------------------------------------------------------------------------
+SCRUM PRINCIPLES 
+
+
+
+
